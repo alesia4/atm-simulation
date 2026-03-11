@@ -74,29 +74,6 @@ Validation checks:
 
 ------------------------------------------------------------------------
 
-## Balance Display
-
-After login the application displays the current balance.
-
-------------------------------------------------------------------------
-
-# Database Structure
-
-## Database
-
-    AtmDB
-
-## Table: Users
-
-  Column   Type      Description
-  -------- --------- -------------------------
-  Id       int       User ID
-  Pin      varchar   User PIN
-  IBAN     varchar   Bank account IBAN
-  Sold     double    Current account balance
-
-------------------------------------------------------------------------
-
 # Technologies Used
 
 -   C#
@@ -176,8 +153,8 @@ The application includes several validation rules:
 # Example User Record
 
 ``` sql
-INSERT INTO Users (Pin, IBAN, Sold)
-VALUES ('1234', 'RO49AAAA1B31007593840000', 1000);
+INSERT INTO Users (User_Name, Pin, IBAN, Sold)
+VALUES ('Popescu Maria', '1234', 'RO49AAAA1B31007593840000', 1000);
 ```
 
 ------------------------------------------------------------------------
