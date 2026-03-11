@@ -1,8 +1,8 @@
-# ATM Simulator (Bancomat2)
+# ATM Simulator (Bancomat)
 
 ## Overview
 
-**Bancomat2** is a Windows Forms ATM simulator written in C# that
+**Bancomat** is a Windows Forms ATM simulator written in C# that
 connects to a SQL Server database. The application allows users to
 authenticate using a PIN and perform basic ATM operations such as:
 
